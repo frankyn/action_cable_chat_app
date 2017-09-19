@@ -1,5 +1,10 @@
 development:
-  adapter: async
+  adapter: google_pubsub
+  project: "franks-test-project-for-yea"
+  keyfile: "service-account.json"
+  topic: "action_cable"
+  subscription: "action_cable"
+
 
 test:
   adapter: async
